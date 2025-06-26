@@ -25,7 +25,7 @@ export class BooksController {
     }
     @Get('my')
     getMyBooks() {
-        return 'This action delete all my books';
+        return 'This action return my books only';
     }
 }
 ```
